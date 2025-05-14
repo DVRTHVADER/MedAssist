@@ -17,3 +17,50 @@ body {
   width: 100%;
   z-index: 1000;
 }
+@media (max-width: 600px) {
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  ul {
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  ul li {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+
+  .toggle-icon {
+    width: 40px;
+  }
+
+  .toggle-icon:hover {
+    width: 50px;
+  }
+
+  /* Services Section */
+  .service-card {
+    max-width: 90%;
+  }
+
+  /* A propos section */
+  .apropos-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .apropos-title,
+  .apropos-text {
+    text-align: center;
+  }
+
+  .apropos-carousel {
+    min-width: 90%;
+  }
+}

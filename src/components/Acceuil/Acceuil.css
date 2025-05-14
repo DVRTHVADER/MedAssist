@@ -43,14 +43,14 @@
 
 .acceuil-buttons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 255px;
   align-items: center;
 }
 
 .btn {
   padding: 15px 44px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   border: none;
   border-radius: 25px;
   cursor: pointer;
@@ -124,12 +124,16 @@
 }
 
 /* Responsive */
-@media (min-width: 640px) {
+@media (max-width: 640px) {
   .acceuil-buttons {
     flex-direction: row;
+    gap: 200px;
+    margin-left: 88px;
   }
 
   .btn {
-    margin: 0 10px;
+    padding: 10px 24px; /* Reduce button size */
+    font-size: 1rem; /* Slightly smaller text */
+    margin: 0; /* Ensure no extra margin */
   }
 }

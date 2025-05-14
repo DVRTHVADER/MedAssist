@@ -18,11 +18,11 @@
 }
 
 .service-card {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   padding: 30px;
   border-radius: 16px;
-  max-width: 300px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  box-shadow: 0 6px 18px rgba(6, 5, 5, 0.265);
   transition: transform 0.3s ease;
 }
 
@@ -38,4 +38,18 @@
 .service-card p {
   color: #4b5563;
   font-size: 1rem;
+}
+@media (max-width: 640px) {
+  .service-card {
+    padding: 20px;
+    max-width: 500px;
+  }
+
+  .service-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .service-card p {
+    font-size: 0.8rem;
+  }
 }

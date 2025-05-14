@@ -55,3 +55,47 @@ ul li:hover {
   transition: 0.5s ease-out, border-radius 0.5s ease-out;
   color: white;
 }
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    z-index: 1100;
+  }
+
+  ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    background: #e3d8b7;
+    border-radius: 0 0 20px 20px;
+    padding: 20px 0;
+    margin: 0;
+  }
+
+  ul.open {
+    display: flex;
+  }
+
+  ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .toggle-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+}
