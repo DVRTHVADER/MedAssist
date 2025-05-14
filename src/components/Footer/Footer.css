@@ -24,7 +24,7 @@
   text-decoration: underline;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   .footer {
     flex-direction: column;
     text-align: center;
