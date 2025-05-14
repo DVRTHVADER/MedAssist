@@ -1,0 +1,57 @@
+.navbar {
+  position: fixed; /* Sticks the navbar to the top */
+  top: 0; /* Aligns it to the top */
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Keeps it above other content */
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 5%; /* Use px or rem instead of large % to avoid pushing down */
+}
+.toggle-icon {
+  width: 50px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.toggle-icon:hover {
+  width: 70px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: 0.5s ease-out, border-radius 0.5s ease-out;
+}
+
+ul {
+  background: #e3d8b7b3;
+  border-radius: 55px;
+  flex: 1;
+  margin: 30px 80px;
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+}
+
+ul li {
+  display: inline-block;
+  margin: 20px 20px;
+  font-size: 18px;
+}
+.contact:hover {
+  background-color: #e3d8b7;
+  border-radius: 25px;
+  padding: 5px 20px;
+  color: white;
+  transition: 0.5s ease-out, border-radius 0.5s ease-out;
+}
+ul:hover {
+  background-color: #e3d8b700;
+  transition: 0.5s ease-out, border-radius 0.5s ease-out;
+}
+ul li:hover {
+  display: inline-block;
+  margin: 20px 20px;
+  font-size: 24px;
+  transition: 0.5s ease-out, border-radius 0.5s ease-out;
+  color: white;
+}

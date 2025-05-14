@@ -1,0 +1,135 @@
+/* Hero Section */
+.acceuil-container {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../../assets/background.png");
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.acceuil-overlay {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.acceuil-content {
+  text-align: center;
+  max-width: 800px;
+  color: #fff;
+  padding: 20px;
+}
+
+.acceuil-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #8a6c27; /* Tailwind blue-400 */
+}
+
+.acceuil-description {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.acceuil-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 255px;
+  align-items: center;
+}
+
+.btn {
+  padding: 15px 44px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.btn-primary:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition: 0.5s ease-out, border-radius 0.5s ease-out;
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.8s ease-in-out;
+}
+
+.btn-secondary:hover {
+  background-color: #f8e89e;
+  color: #000000;
+  transition: 0.5s ease-out, border-radius 0.5s ease-out;
+}
+
+/* Services Section */
+.services-section {
+  padding: 80px 20px;
+  background-color: #f9fafb;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #1f2937;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.service-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #111827;
+}
+
+.service-card p {
+  color: #4b5563;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive */
+@media (min-width: 640px) {
+  .acceuil-buttons {
+    flex-direction: row;
+  }
+
+  .btn {
+    margin: 0 10px;
+  }
+}
