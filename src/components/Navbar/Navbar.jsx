@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-
 import toggle_light from "../../assets/night.png";
 import { FaBars, FaTimes } from "react-icons/fa"; // icons for open/close
 
@@ -10,9 +9,21 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <ul className={`nav-links ${isMenuOpen ? "open" : ""}`}>
-        <li>Acceuil</li>
-        <li>Services</li>
-        <li className="contact">Contact</li>
+        <li>
+          <a href="#acceuil" onClick={() => setIsMenuOpen(false)}>
+            Acceuil
+          </a>
+        </li>
+        <li>
+          <a href="#apropos" onClick={() => setIsMenuOpen(false)}>
+            À propos
+          </a>
+        </li>
+        <li>
+          <a href="#services" onClick={() => setIsMenuOpen(false)}>
+            Nos services
+          </a>
+        </li>
       </ul>
 
       <div className="icons">

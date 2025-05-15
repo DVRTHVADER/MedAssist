@@ -9,7 +9,7 @@ import "./Apropos.css";
 
 const Apropos = () => {
   return (
-    <section className="apropos-section">
+    <section id="apropos" className="apropos-section">
       <div className="apropos-container">
         <div className="apropos-text-container">
           <h2 className="apropos-title">À Propos de Nous</h2>

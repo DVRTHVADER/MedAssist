@@ -5,18 +5,23 @@ const Acceuil = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="acceuil-container">
+      <section id="acceuil" className="acceuil-container">
         <div className="acceuil-overlay">
           <div className="acceuil-content">
             <h1 className="acceuil-title">
-              Bienvenue chez <span className="highlight">MedAssis</span>
+              Bienvenue chez <span className="highlight">Proxy B </span>
             </h1>
             <p className="acceuil-description">
-              Pour toutes reservations contactez-nous ou ecrivez nous
+              Des soins à domicile de confiance, adaptés à vos besoins –
+              aujourd'hui et demain.
             </p>
             <div className="acceuil-buttons">
-              <button className="btn btn-primary">Contacts</button>
-              <button className="btn btn-secondary">Email</button>
+              <a href="#contact-footer" className="btn btn-primary">
+                Contactez-nous
+              </a>
+              <a href="#services" className="btn btn-secondary">
+                Nos Services
+              </a>
             </div>
           </div>
         </div>

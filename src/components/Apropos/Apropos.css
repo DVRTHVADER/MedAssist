@@ -2,7 +2,9 @@
   background-color: #f2f0e2;
   padding: 80px 20px;
 }
-
+body {
+  overflow-x: hidden;
+}
 .apropos-container {
   display: flex;
   flex-wrap: wrap;
@@ -33,24 +35,35 @@
   line-height: 1.8;
   text-align: left;
 }
-
 .apropos-carousel {
   flex: 1;
-  width: 100%;
   max-width: 600px;
-  height: auto;
+  width: 100%;
+  border-radius: 12px;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-.apropos-carousel img {
+
+.apropos-carousel .carousel .slide img {
   width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 12px;
 }
-@media (max-width: 600px) {
+
+/* Optional: force aspect ratio if image sizes are inconsistent */
+.apropos-carousel .carousel .slide {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.apropos-carousel .carousel .slide img {
+  height: 100%;
+}
+
+/* Mobile & Small Tablets: up to 768px */
+@media (max-width: 768px) {
   .apropos-container {
     flex-direction: column;
     align-items: center;
@@ -63,8 +76,37 @@
     text-align: center;
   }
 
-  .apropos-carousel {
-    width: 100%;
+  .apropos-text-container {
     max-width: 100%;
+    padding: 1 15px;
+  }
+
+  .apropos-carousel {
+    max-width: 700%;
+    padding: 0px 40px;
+  }
+}
+
+/* Medium Tablets & Landscape Phones: 769px to 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .apropos-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 30px;
+  }
+
+  .apropos-text-container {
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .apropos-title,
+  .apropos-text {
+    text-align: center;
+  }
+
+  .apropos-carousel {
+    max-width: 90%;
+    margin-top: 20px;
   }
 }

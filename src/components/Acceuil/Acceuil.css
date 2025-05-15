@@ -53,6 +53,7 @@
 }
 
 .btn {
+  text-decoration: none;
   padding: 15px 44px;
   font-size: 0.9rem;
   border: none;
