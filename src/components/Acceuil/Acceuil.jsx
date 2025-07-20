@@ -9,7 +9,7 @@ const Acceuil = () => {
         <div className="acceuil-overlay">
           <div className="acceuil-content">
             <h1 className="acceuil-title">
-              Bienvenue chez <span className="highlight">Proxy B </span>
+              Bienvenue chez <span className="highlight">ProxyB</span>
             </h1>
             <p className="acceuil-description">
               Des soins à domicile de confiance, adaptés à vos besoins –
