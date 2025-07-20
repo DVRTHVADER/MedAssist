@@ -47,9 +47,6 @@ const Footer = () => {
           <p>
             <a href="#">Services de Transport </a>
           </p>
-          <p>
-            <a href="#">Tarification</a>
-          </p>
         </div>
         <div className="footer-col">
           <h6>Autres</h6>
@@ -63,23 +60,23 @@ const Footer = () => {
         <div className="footer-col">
           <h6>CONTACTS</h6>
           <p>
-            <i className="fas fa-home"></i> New York, NY 10012, US
+            <i className="fas fa-home"></i> 21 rue de grand-pre, St Jacques
           </p>
           <p>
-            <i className="fas fa-envelope"></i> info@example.com
+            <i className="fas fa-envelope"></i> info.proxyb@gmail.com
           </p>
           <p>
-            <i className="fas fa-phone"></i> + 01 234 567 88
+            <i className="fas fa-phone"></i> +1 438 922 1290
           </p>
           <p>
-            <i className="fas fa-print"></i> + 01 234 567 89
+            <i className="fas fa-print"></i> +1 438 924 7012
           </p>
         </div>
       </section>
 
       <div className="footer-bottom">
         <p>
-          © 2025 Copyright: <a href="#">Grelarn & Hartexh companies</a>
+          © 2025 Copyright: <a href="#"> Hartexh companies</a>
         </p>
       </div>
     </footer>
