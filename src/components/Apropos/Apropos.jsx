@@ -18,7 +18,7 @@ const Apropos = () => {
             passion profonde : offrir à chacun le confort, la dignité et
             l’attention qu’il mérite, dans le lieu qui lui est le plus cher —
             son propre foyer. Chez
-            <strong> MedAssist</strong>, Nous croyons que la qualité des soins
+            <strong> Proxyb </strong>, Nous croyons que la qualité des soins
             ne réside pas seulement dans les compétences, mais aussi dans la
             bienveillance, l’écoute et la présence. C’est pourquoi notre
             engagement va au-delà du simple accompagnement : nous construisons
